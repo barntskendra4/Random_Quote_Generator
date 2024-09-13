@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <script defer src="./assets/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Random Quote Generator</title>
+   <link rel="icon" type="image/x-icon" href="./chat-square-heart-fill.svg">
+</head>
+
+<body>
+    <main>
+        <section id="quote-box">
+            <div class="wordDiv ">
+                <div class="pain">
+                    <p><i class="bi bi-quote"></i></p>
+                    <p class="word" id="text"> </p>
+                </div>
+                <div class="pain">
+                    <p>-</p>
+                    <p id="author"></p>
+                </div>
+                <div class="buttonDiv">
+                    <button type="button" class="btn btn-primary m-2 " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" id="twitter">
+                        <i class="bi bi-twitter"></i></button>
+                    <article><button class="quoteBtn m-2 " id="new-quote">New Quote</button></article>
+                    <!-- <a href="./index.html"><button class="quoteBtn m-2 " id="new-quote">New Quote</button></a> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Post Quote on Twitter!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="post-quote"></p>
+                    <p id="post-author"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Tweet Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery.migrate.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

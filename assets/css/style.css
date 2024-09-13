@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    font-family: Ink Free;
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 35vw;
+    background-color: white;
+}
+
+.wordDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 15%;
+    font-size: 2rem;
+    text-shadow: black;
+
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.pain {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.quoteBtn{
+    border-radius: 12px ;
+    text-align: center;
+}
